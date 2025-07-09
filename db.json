@@ -1,0 +1,527 @@
+{
+  "users": [
+    {
+      "username": "Angelo",
+      "password": "angelo12",
+      "rol": "1",
+      "id": "1"
+    },
+    {
+      "username": "Gustavo",
+      "password": "gustavo12",
+      "rol": "2",
+      "id": "2"
+    },
+    {
+      "id": "5bdb",
+      "username": "Melina",
+      "password": "melina12",
+      "rol": "1"
+    },
+    {
+      "id": "b3d5",
+      "username": "Milagros",
+      "password": "mila1234",
+      "rol": "1"
+    }
+  ],
+  "orders": [
+    {
+      "idDistribuidor": "5",
+      "idLote": "1",
+      "cantidad": 150,
+      "estado": "pendiente",
+      "fechaPedido": "2025-06-21T17:53:20.052Z",
+      "precioFinal": 500,
+      "id": "1"
+    },
+    {
+      "idDistribuidor": "5",
+      "idLote": "lote002",
+      "cantidad": 150,
+      "estado": "pendiente",
+      "fechaPedido": "2025-06-21T17:53:20.052Z",
+      "precioFinal": 250,
+      "id": "20",
+      "codigoPromoAplicado": true
+    }
+  ],
+  "promotions": [
+    {
+      "id": "47e7",
+      "IdProductor": "1",
+      "codigo": "PROMO-J309MO",
+      "descuento": 50,
+      "fecha_caducidad": "2025-07-04"
+    },
+    {
+      "id": "6e41",
+      "IdProductor": "2803",
+      "codigo": "PROMO-Q45FOT",
+      "descuento": 50,
+      "fecha_caducidad": "2025-06-27"
+    },
+    {
+      "id": "65541",
+      "IdProductor": "2803",
+      "codigo": "PROMO-Z45FOT",
+      "descuento": 50,
+      "fecha_caducidad": "2025-06-27"
+    }
+  ],
+  "contactos": [
+    {
+      "idDistribuidor": "5",
+      "idProductor": 1,
+      "id": "1"
+    },
+    {
+      "id": "e723",
+      "idDistribuidor": "5",
+      "idProductor": "1"
+    },
+    {
+      "id": "c524",
+      "idDistribuidor": "5",
+      "idProductor": "2803"
+    },
+    {
+      "id": "2c81",
+      "idDistribuidor": "5",
+      "idProductor": "adb7"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "c477",
+      "puntuacion": 3,
+      "comentario": "Me llego mal el lote",
+      "loteId": "7e3b"
+    },
+    {
+      "id": "9d3c",
+      "puntuacion": 5,
+      "comentario": "Me llego en buen estado, buen producto ",
+      "loteId": "7e3b"
+    },
+    {
+      "id": "bb26",
+      "puntuacion": 1,
+      "comentario": "Me llego mal el producto",
+      "loteId": "7e3b"
+    }
+  ],
+  "reservas": [
+    {
+      "idLote": 1,
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-06-21",
+      "stock": 150,
+      "estado": "aceptada",
+      "id": "1"
+    },
+    {
+      "id": "217b",
+      "idLote": "1",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-06-21",
+      "stock": 250,
+      "estado": "rechazada"
+    },
+    {
+      "id": "a362",
+      "idLote": "7e3b",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-06-21",
+      "stock": 250,
+      "estado": "pendiente"
+    },
+    {
+      "id": "b4d2",
+      "idLote": "7e3b",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-06-26",
+      "stock": 250,
+      "estado": "pendiente"
+    },
+    {
+      "id": "9ba4",
+      "idLote": "lote001",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-06-26",
+      "stock": 250,
+      "estado": "pendiente"
+    },
+    {
+      "id": "ab51",
+      "idLote": "7e3b",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-07-09",
+      "stock": 1,
+      "estado": "pendiente"
+    },
+    {
+      "id": "d249",
+      "idLote": "7f62c091-f0f0-4a32-b00b-e852e2bb1d63",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-07-09",
+      "stock": 1,
+      "estado": "pendiente"
+    },
+    {
+      "id": "86e0",
+      "idLote": "6083edad-6d2a-4b15-83fe-dd237bc90dc4",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-07-09",
+      "stock": 1,
+      "estado": "pendiente"
+    },
+    {
+      "id": "5b02",
+      "idLote": "7f62c091-f0f0-4a32-b00b-e852e2bb1d63",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-07-09",
+      "stock": 1,
+      "estado": "pendiente"
+    },
+    {
+      "id": "1fbb",
+      "idLote": "80708b2a-53e3-42aa-b6ac-1576dae52b67",
+      "idDistribuidor": "5",
+      "fechaRegistro": "2025-07-09",
+      "stock": 1,
+      "estado": "pendiente"
+    }
+  ],
+  "productores": [
+    {
+      "userid": 1,
+      "nombre": "Angelo Curi Marcelo",
+      "telefono": "975149459",
+      "email": "angelocuri@hotmail.com",
+      "direccion": "Las Flores Chorrillos",
+      "ciudad": "Lima",
+      "pais": "Peru",
+      "fechaRegistro": "2025-06-21T17:33:54.009Z",
+      "url": "https://raw.githubusercontent.com/VillaSystem/grupo2-project-report/refs/heads/master/images/Angelo.png",
+      "id": "1"
+    },
+    {
+      "id": "adb7",
+      "userid": "5bdb",
+      "nombre": "Melina Contreras",
+      "telefono": "948596856",
+      "email": "Melina@gmail.com",
+      "direccion": "Pj. Flores",
+      "ciudad": "Lima",
+      "pais": "Perú",
+      "fechaRegistro": "2025-06-26T02:50:47.300Z",
+      "url": "https://b2472105.smushcdn.com/2472105/wp-content/uploads/2023/09/Poses-Perfil-Profesional-ago.-10-2023-1024x1024.jpg"
+    },
+    {
+      "id": "2803",
+      "userid": "b3d5",
+      "nombre": "Milagros Lima",
+      "telefono": "984456789",
+      "email": "milagros@gmail.com",
+      "direccion": "Pj. San Felipe 120",
+      "ciudad": "Lima",
+      "pais": "Perú",
+      "fechaRegistro": "2025-06-26T02:56:56.072Z",
+      "url": "https://i.pinimg.com/736x/7e/2e/12/7e2e129ddb43977eb8d2c9c1c9e4a6f1.jpg"
+    }
+  ],
+  "distribuidores": [
+    {
+      "userid": 2,
+      "nombre": "Gustavo",
+      "telefono": "985874558",
+      "email": "gustavo@gmail.com",
+      "direccion": "Los Girasoles",
+      "ciudad": "Lima",
+      "pais": "Peru",
+      "fechaRegistro": "2025-06-21T17:35:12.251Z",
+      "url": "https://raw.githubusercontent.com/VillaSystem/grupo2-project-report/refs/heads/master/images/gustavo.png",
+      "id": "5"
+    }
+  ],
+  "favoritos": [
+    {
+      "id": "6206",
+      "idLote": "abcf",
+      "idDistribuidor": "5"
+    },
+    {
+      "id": "1b23",
+      "idLote": "7e3b",
+      "idDistribuidor": "5"
+    },
+    {
+      "id": "7ad1",
+      "idLote": "lote001",
+      "idDistribuidor": "5"
+    },
+    {
+      "id": "9ec2",
+      "idLote": "7f62c091-f0f0-4a32-b00b-e852e2bb1d63",
+      "idDistribuidor": "5"
+    },
+    {
+      "id": "c0a5",
+      "idLote": "80708b2a-53e3-42aa-b6ac-1576dae52b67",
+      "idDistribuidor": "5"
+    }
+  ],
+  "lotes": [
+    {
+      "id": "7e3b",
+      "autor": "Angelo",
+      "fechaRegistro": "21/06/2025",
+      "hora": "14:01",
+      "tipo": "T2",
+      "imagenUrl": "https://as01.epimg.net/deporteyvida/imagenes/2018/08/21/portada/1534862667_916746_1534862934_noticia_normal.jpg",
+      "precioUnitario": 160,
+      "pesoKg": 180,
+      "calidad": "Media",
+      "estado": "Disponible",
+      "stock": 99,
+      "fechaPedido": null,
+      "idProductor": "1",
+      "materiaOrganica": 15,
+      "cloruroPotasio": 15,
+      "fosfato": 15,
+      "sulfatoCalcio": 15,
+      "urea": 15,
+      "sulfatoMagnesio": 15,
+      "correctoresPH": 50
+    },
+    {
+      "id": "lote001",
+      "autor": "Angelo",
+      "fechaRegistro": "21/06/2025",
+      "hora": "14:01",
+      "tipo": "T1",
+      "imagenUrl": "https://as01.epimg.net/deporteyvida/imagenes/2018/08/21/portada/1534862667_916746_1534862934_noticia_normal.jpg",
+      "precioUnitario": 150,
+      "pesoKg": 180,
+      "calidad": "Alta",
+      "estado": "Disponible",
+      "stock": 50,
+      "fechaPedido": null,
+      "idProductor": "1",
+      "materiaOrganica": 15,
+      "cloruroPotasio": 15,
+      "fosfato": 15,
+      "sulfatoCalcio": 15,
+      "urea": 15,
+      "sulfatoMagnesio": 15,
+      "correctoresPH": 15
+    },
+    {
+      "id": "lote002",
+      "autor": "Angelo",
+      "fechaRegistro": "21/06/2025",
+      "hora": "14:05",
+      "tipo": "T2",
+      "imagenUrl": "https://as01.epimg.net/deporteyvida/imagenes/2018/08/21/portada/1534862667_916746_1534862934_noticia_normal.jpg",
+      "precioUnitario": 160,
+      "pesoKg": 200,
+      "calidad": "Media",
+      "estado": "Disponible",
+      "stock": 320,
+      "fechaPedido": null,
+      "idProductor": "1",
+      "materiaOrganica": 15,
+      "cloruroPotasio": 15,
+      "fosfato": 15,
+      "sulfatoCalcio": 15,
+      "urea": 15,
+      "sulfatoMagnesio": 15,
+      "correctoresPH": 15
+    },
+    {
+      "id": "lote003",
+      "autor": "Angelo",
+      "fechaRegistro": "21/06/2025",
+      "hora": "14:10",
+      "tipo": "T3",
+      "imagenUrl": "https://as01.epimg.net/deporteyvida/imagenes/2018/08/21/portada/1534862667_916746_1534862934_noticia_normal.jpg",
+      "precioUnitario": 140,
+      "pesoKg": 160,
+      "calidad": "Alta",
+      "estado": "Disponible",
+      "stock": 250,
+      "fechaPedido": null,
+      "idProductor": "1",
+      "materiaOrganica": 15,
+      "cloruroPotasio": 15,
+      "fosfato": 15,
+      "sulfatoCalcio": 15,
+      "urea": 15,
+      "sulfatoMagnesio": 15,
+      "correctoresPH": 15
+    },
+    {
+      "id": "lote004",
+      "autor": "Angelo",
+      "fechaRegistro": "21/06/2025",
+      "hora": "14:15",
+      "tipo": "T1",
+      "imagenUrl": "https://as01.epimg.net/deporteyvida/imagenes/2018/08/21/portada/1534862667_916746_1534862934_noticia_normal.jpg",
+      "precioUnitario": 170,
+      "pesoKg": 190,
+      "calidad": "Media",
+      "estado": "Disponible",
+      "stock": 270,
+      "fechaPedido": null,
+      "idProductor": "1",
+      "materiaOrganica": 15,
+      "cloruroPotasio": 15,
+      "fosfato": 15,
+      "sulfatoCalcio": 15,
+      "urea": 15,
+      "sulfatoMagnesio": 15,
+      "correctoresPH": 15
+    },
+    {
+      "id": "lote005",
+      "autor": "Angelo",
+      "fechaRegistro": "21/06/2025",
+      "hora": "14:20",
+      "tipo": "T2",
+      "imagenUrl": "https://as01.epimg.net/deporteyvida/imagenes/2018/08/21/portada/1534862667_916746_1534862934_noticia_normal.jpg",
+      "precioUnitario": 155,
+      "pesoKg": 210,
+      "calidad": "Alta",
+      "estado": "Disponible",
+      "stock": 280,
+      "fechaPedido": null,
+      "idProductor": "1",
+      "materiaOrganica": 15,
+      "cloruroPotasio": 15,
+      "fosfato": 15,
+      "sulfatoCalcio": 15,
+      "urea": 15,
+      "sulfatoMagnesio": 15,
+      "correctoresPH": 15
+    },
+    {
+      "id": "d41c",
+      "autor": "fafaf",
+      "fechaRegistro": "25/06/2025",
+      "hora": "21:52",
+      "tipo": "fafa",
+      "imagenUrl": "https://www.saborusa.com/wp-content/uploads/2021/03/Los-beneficios-de-consumir-arandanos-y-como-comerlos_1.png",
+      "precioUnitario": 141,
+      "pesoKg": 32141,
+      "calidad": "41",
+      "estado": "141",
+      "stock": 414,
+      "fechaPedido": null,
+      "idProductor": "adb7",
+      "materiaOrganica": 414,
+      "cloruroPotasio": 41,
+      "fosfato": 14,
+      "sulfatoCalcio": 41,
+      "urea": 41,
+      "sulfatoMagnesio": 41,
+      "correctoresPH": 414
+    },
+    {
+      "id": "abcf",
+      "autor": "Milagros",
+      "fechaRegistro": "25/06/2025",
+      "hora": "21:57",
+      "tipo": "T2",
+      "imagenUrl": "https://www.saborusa.com/wp-content/uploads/2021/03/Los-beneficios-de-consumir-arandanos-y-como-comerlos_1.png",
+      "precioUnitario": 152,
+      "pesoKg": 500,
+      "calidad": "Buena",
+      "estado": "Disponible",
+      "stock": 500,
+      "fechaPedido": null,
+      "idProductor": "2803",
+      "materiaOrganica": 150,
+      "cloruroPotasio": 140,
+      "fosfato": 140,
+      "sulfatoCalcio": 130,
+      "urea": 120,
+      "sulfatoMagnesio": 102,
+      "correctoresPH": 104
+    }
+  ],
+  "mensajes": [
+    {
+      "id": "1750528355765",
+      "remitenteId": "1",
+      "remitenteNombre": "Angelo Curi Marcelo",
+      "destinatarioId": "5",
+      "destinatarioNombre": "Gustavo",
+      "contenido": "Hola",
+      "fechaEnvio": "2025-06-21T17:52:35.765Z"
+    },
+    {
+      "id": "1750528374592",
+      "remitenteId": "5",
+      "remitenteNombre": "Gustavo",
+      "destinatarioId": "1",
+      "destinatarioNombre": "Angelo Curi Marcelo",
+      "contenido": "hola",
+      "fechaEnvio": "2025-06-21T17:52:54.592Z"
+    },
+    {
+      "id": "1750535049146",
+      "remitenteId": "1",
+      "remitenteNombre": "Angelo Curi Marcelo",
+      "destinatarioId": "5",
+      "destinatarioNombre": "Gustavo",
+      "contenido": "Hola",
+      "fechaEnvio": "2025-06-21T19:44:09.146Z"
+    },
+    {
+      "id": "1750976731135",
+      "remitenteId": "5",
+      "remitenteNombre": "Gustavo",
+      "destinatarioId": "2803",
+      "destinatarioNombre": "Milagros Lima",
+      "contenido": "📍 Ubicación: https://www.google.com/maps?q=-34.610143912644865,-58.382212012243976",
+      "fechaEnvio": "2025-06-26T22:25:31.135Z"
+    },
+    {
+      "id": "1750976956669",
+      "remitenteId": "5",
+      "remitenteNombre": "Gustavo",
+      "destinatarioId": "2803",
+      "destinatarioNombre": "Milagros Lima",
+      "contenido": "https://www.google.com/maps?q=-34.6013045833641,-58.38614902648927",
+      "fechaEnvio": "2025-06-26T22:29:16.669Z"
+    },
+    {
+      "id": "1750977280074",
+      "remitenteId": "5",
+      "remitenteNombre": "Gustavo",
+      "destinatarioId": "2803",
+      "destinatarioNombre": "Milagros Lima",
+      "contenido": "https://www.google.com/maps?q=-34.598478565226536,-58.38151416931154",
+      "fechaEnvio": "2025-06-26T22:34:40.074Z"
+    },
+    {
+      "id": "1750977346905",
+      "remitenteId": "5",
+      "remitenteNombre": "Gustavo",
+      "destinatarioId": "2803",
+      "destinatarioNombre": "Milagros Lima",
+      "contenido": "https://www.google.com/maps?q=-12.051960684337613,-77.04429352560354",
+      "fechaEnvio": "2025-06-26T22:35:46.905Z"
+    },
+    {
+      "id": "1752026348934",
+      "remitenteId": "5",
+      "remitenteNombre": "Gustavo",
+      "destinatarioId": "adb7",
+      "destinatarioNombre": "Melina Contreras",
+      "contenido": "holi ",
+      "fechaEnvio": "2025-07-09T01:59:08.934Z"
+    }
+  ]
+}
